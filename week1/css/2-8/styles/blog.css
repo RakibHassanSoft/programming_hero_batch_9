@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+.header{
+    height: 300px;
+    background-color: #d6b5b5;
+    background-image: url('../img/bg-after.jpg');
+
+    /* background-size: 200px; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    /* background-size: cover; */
+    /* background-size: contain; */
+    
+}
+h1 {
+    font-size: 40px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.icd{
+    border: 2px solid purple;
+    /* display: block;  for new line and height needed*/
+    margin: 20px;
+    /* display: inline-block; */
+
+}
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+/* .second { */
+    /* display: none;  to hinde sometag */
+    /* visibility: hidden; to hinde sometag but the gap will be there */
+
+/* } */
+li{
+    display: inline;
+    /* text-decoration: none; */
+}
+
+.dolor{
+   border: 2px solid peru; 
+
+   /* height: 60px;  will not work if we use it block*/
+   /* display: block;  way 1
+   height: 60px; */
+
+   /* height: 60px;   way 2
+   display: inline-block; */
+
+}
