@@ -1,0 +1,26 @@
+h1 {
+    font-size: 40px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.icd{
+    border: 2px solid purple;
+    /* display: block;  for new line and height needed*/
+    margin: 20px;
+    /* display: inline-block; */
+
+}
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+.second {
+    /* display: none;  to hinde sometag */
+    /* visibility: hidden; to hinde sometag but the gap will be there */
+
+}
+li{
+    display: inline;
+    /* text-decoration: none; */
+}
