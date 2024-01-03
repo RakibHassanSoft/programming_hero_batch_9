@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    width: 200px;
+    background-color: #6169ff;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height */
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: #f9f2f2;
+    padding: 10px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    
+    background-color: #c66565;
+    color: #ffffff;
+
+}
+.active{
+    background-color:rgb(118, 182, 22);
+}
+li a .active:hover{
+    
+    background-color: inherit;
+
+}
+.left{
+    width:30%;
+}
