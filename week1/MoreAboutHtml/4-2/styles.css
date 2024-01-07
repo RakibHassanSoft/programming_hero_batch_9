@@ -16,3 +16,20 @@ footer{
     margin-top: 30px;
     text-align: center;
 }
+nav >ul{
+    /* all data in same link */
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li  :hover{
+  background-color: lightgreen;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+}
