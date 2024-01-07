@@ -1,0 +1,18 @@
+nav > ul > li{
+    /* for all in line */
+    display: inline;
+    /* for no style od a */
+    /* text-decoration: none; */
+    padding-left: 10px;
+
+}
+
+nav li > a{
+     /* for no style od a */
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}

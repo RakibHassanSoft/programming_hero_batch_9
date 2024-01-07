@@ -1,0 +1,1 @@
+{"name":"Local: input","url":"h:\\MyNote\\Programmig_hero_batch_9\\input.cpp","tests":[{"id":1704445454168,"input":"10 20 30 40 50 -1 60 -1 -1 -1 -1 -1 -1","output":"60 50 40"},{"id":1704448630087,"input":"1 -1 -1","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\MyNote\\Programmig_hero_batch_9\\input.cpp","group":"local","local":true}
