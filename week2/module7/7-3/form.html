@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+
+        }
+        .log_con{
+            display: flex;
+            /* to center horizonterlly  */
+            justify-content: center;
+            /* to center vartically  */
+            align-items: center;
+            height: 90vh;
+
+            border: 2px solid blue;
+        }
+        .loginForm {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            /* will not work */
+            /* justify-content: center; */
+            border: 2px solid orange;
+
+        }
+
+        .loginForm input {
+            margin-top: 20px;
+        }
+        /* to center the form  */
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Potfolio</a>
+            <a href="">Blog</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+
+    <section class="log_con">
+        <form action="" class="loginForm">
+            <h3>Please login</h3>
+            <input type="email" placeholder="Your email" required>
+            <input type="password" placeholder="Your password" required>
+            <input type="submit">
+        </form>
+    </section>
+</body>
+
+</html>

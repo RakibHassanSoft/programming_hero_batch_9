@@ -1,0 +1,51 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+
+}
+
+.vc img{
+    height: calc((100% - 5px)/2);
+
+
+}
+
+.row > div{
+    /* all will have same same jyga */
+    flex: 1px;
+}
+
+.sc{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+
+}
+
+
+/* responsove  */
+@media screen  and (max-width:576px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .sc{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* mdeium devices
+ */
+ @media screen  and (min-width:576px) and (max-width:992px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+    <style>
+        body{
+            border: 1px solid tomato;
+            max-width: 1140px;
+            margin: 0 auto;
+
+        }
+        .img-con{
+            display: flex;
+        }
+        .img-con din{
+            width: 50%;
+        }
+        .img-con img{
+            width: 100%;
+        }
+        @media screen and (max-width:576){
+           .img-con{
+        flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive website</h1>
+        <ol>
+            <li>Viewport meta tag</li>
+            <li>Css Realtive Unit</li>
+            <li>Body max width and horizontal center unit</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </header>
+
+    <main>
+        <div class="img-con">
+            <div>
+                <img src="../7-7/img/download.jpeg" alt="">
+            </div>
+            <div>
+                <img src="./images.jpeg" alt="">
+
+            </div>
+        </div>
+       
+    </main>
+</body>
+</html>

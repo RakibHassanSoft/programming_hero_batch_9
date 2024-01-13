@@ -1,0 +1,20 @@
+https://dev.to/chayti/hack-the-ways-to-center-align-any-text-image-element-in-css-4e10
+
+https://websitesetup.org/website-layouts/
+
+
+relative and abslute
+
+em rem etc comperision
+
+7-2  floxbox
+    direction default left to right 
+
+7-3 resposnive form with flex
+
+
+important:
+7-8 seven things need to know
+
+
+
