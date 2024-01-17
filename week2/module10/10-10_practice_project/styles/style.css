@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #FFF;
+}
+
+:root {
+    --padding-120: 120px;
+}
+
+/* header work  */
+.header {
+    display: flex;
+    gap: 800px;
+    padding: var(--padding-120);
+    margin-top: 0;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.header_ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.left_header {
+    font-size: 30px;
+}
+
+.right_header {
+    font-size: 18px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* main section  */
+
+/* hero section  */
+.main {
+    padding: 0 var(--padding-120);
+    /* way 1 */
+    display: flex;
+    gap: 50px;
+    /* way 2  */
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+
+.main_left {
+    width: 50%;
+    padding: 20px;
+    font-size: 24px;
+    /* border: 1px solid blue; */
+}
+
+.main_title {
+    color: #3A3A3A;
+
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px
+}
+
+.main_description {
+    color: #3A3A3A;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 10x;
+}
+
+.btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+}
+
+.btn-text {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_right {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    /* background-color: red;
+    border-image: url("/module10/10-10_practice_project/influencer-gear/images"); */
+    /* background-size: 400px; */
+    /* border: 1px solid blue; */
+}
+
+.checked {
+    color: orange;
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 40px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.logo img {
+    padding-left: 30px;
+}
+
+
+
+/* card section  */
+.card_container {
+    margin-left: 200px;
+    margin-right: 200px;
+    /* border: 1px solid green; */
+    margin-bottom: 100px;
+}
+
+.card_container h1 {
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+
+
+}
+
+.card_container_main {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* gap: 20px; */
+}
+
+.img_card {
+    padding: 35px 0;
+    /* border: 1px solid rgb(43, 35, 2); */
+    margin: 1px;
+    background-color: #f5e7e7;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.img_text {
+    text-align-last: left;
+    margin-left: 45px;
+}
+
+.img_text h3 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.img_text .card_money {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* last section  */
+.last-section {
+    /* border: 3px solid aqua; */
+    margin: 100px;
+    display: flex;
+    gap: 150px;
+    padding: 20px;
+}
+
+.last-left {
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.last-left h2 {
+    color: #0A0826;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.last-left p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.butt {
+    text-align: right;
+}
+
+.action {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    background: #FFF;
+}
+
+/* footer  */
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.footer-text {
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-text h1,
+p {
+    margin-bottom: 10px;
+}
+
+.logo-footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    .left_header {
+        font-size: 19px;
+    }
+    .right_header{
+        text-align: center;
+    }
+    .main{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .main_title {
+        color: #3A3A3A;
+        font-size: 22px;
+        line-height: 20px;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

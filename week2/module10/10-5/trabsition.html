@@ -1,0 +1,50 @@
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/transition -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .con{
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid tomato;
+            /* property name | duration | easing function | delay */
+            /* transition: width 10s linear 1s, background-color 5s ; */
+            transition: transform 1s;
+            margin: 10px;
+
+
+        }
+
+        .box:hover {
+            transform: rotate(45deg) scale(2) translate(150px);
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Transform: change the shape, This is a css style property name </li>
+        <li>Translate: it is a value of the transform style rule. this means you move ether
+            x, or y, or both exis.
+        </li>
+        <li>thansition : how long it will take to change of the shape or colloer</li>
+    </ul>
+
+
+    <div class="con">
+        <div class="box">box - 1</div>
+        <div class="box">box - 2</div>
+        <div class="box">box - 3</div>
+    </div>
+</body>
+
+</html>
